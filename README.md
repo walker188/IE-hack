@@ -33,6 +33,7 @@ bug 修复: _height:1%;
 如果先定义了display:inline-block，然后再将 display设回inline或block，layout不会消失。不能写进一个声明中。
 
 2、IE8下td单元格设置position:relative后导致单元格边框消失
- 解决办法：将要定位的元素使用position:absolute后，不设置left、top。。。，此时使用margin进行偏移。
+
+ 解决办法：td单元格去除position:relative后，将要定位的元素使用position:absolute后，不设置left、top。。。，此时使用margin进行偏移。
  
  3、
